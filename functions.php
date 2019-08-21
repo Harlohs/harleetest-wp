@@ -21,8 +21,8 @@
  * @link http://codex.wordpress.org/Plugin_API
  *
  * @package WordPress
- * @subpackage Skillcrush_Starter
- * @since Skillcrush Starter 2.0
+ * @subpackage Harlee-Test
+ * @author Harlee Tholen
  */
 
  // Theme support for post-thumbnails and Menus
