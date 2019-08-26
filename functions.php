@@ -37,7 +37,7 @@
 	 * hard-coded <title> tag in the document head, and expect WordPress to
 	 * provide it for us.
 	 */
-   add_theme_support('title-tag' );
+   add_theme_support( 'title-tag' );
 
    // Register menus
    register_nav_menus ( array (
@@ -48,7 +48,7 @@
 
  // Enqueue scripts and styles
  function harleetest_scripts() {
-   wp_enqueue_style ( 'harleetest-style', get_stylesheet_uri() );
+   wp_enqueue_style( 'harleetest-style', get_stylesheet_uri() );
  }
  add_action( 'wp_enqueue_scripts', 'harleetest_scripts');
 

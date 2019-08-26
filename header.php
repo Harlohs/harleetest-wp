@@ -15,12 +15,12 @@
    <meta name="viewport" content="width=device-width">
    <meta name="description" content="A Wordpress portfolio project sitem built completely on my own.">
    <link rel="profile" href="http://gmpg.org/xfn/11">
-   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"
+   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
    <?php wp_head(); ?>
  </head>
 
- <body <?php body_class(); ?> >
+ <body <?php body_class(); ?>>
    <div id="page" class="hfeed site">
      <header class="page-header container">
        <a href="<?php echo site_url(); ?>" class="top-logo">
